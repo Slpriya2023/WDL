@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore World Travels</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .header {
+            background: url('travel.jpeg') no-repeat center center/cover;
+            color: white;
+            padding: 80px 20px;
+            font-size: 32px;
+            font-weight: bold;
+        }
+        .btn {
+            display: inline-block;
+            background: #ff5733;
+            color: white;
+            padding: 14px 28px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 18px;
+            margin-top: 20px;
+        }
+        .destinations {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px;
+            background: #f4f4f4;
+        }
+        .destination {
+            background: white;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            width: 250px;
+        }
+        .contact {
+            background: #333;
+            color: white;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Explore the World with Us</h1>
+        <p>Discover breathtaking destinations and unforgettable experiences.</p>
+        <a href="#destinations" class="btn">Discover More</a>
+    </div>
+    
+    <div id="destinations" class="destinations">
+        <div class="destination">
+            <h3>Paris, France</h3>
+            <p>The city of love and lights, explore the Eiffel Tower and more.</p>
+        </div>
+        <div class="destination">
+            <h3>Bali, Indonesia</h3>
+            <p>Experience serene beaches and lush greenery.</p>
+        </div>
+        <div class="destination">
+            <h3>New York, USA</h3>
+            <p>The city that never sleeps, filled with endless adventures.</p>
+        </div>
+    </div>
+    
+    <div class="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@exploretravels.com</p>
+        <p>Phone: +123 456 7890</p>
+    </div>
+</body>
+</html>

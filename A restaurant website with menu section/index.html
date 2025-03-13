@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious Bites | Restaurant</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background: #f8f8f8;
+            color: #333;
+        }
+        
+        .hero {
+            position: relative;
+            width: 100%;
+            height: 400px;
+            overflow: hidden;
+        }
+        .hero img {
+            width: 100%;
+            height: 230%;
+            object-fit: cover;
+        }
+        .hero .overlay {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .menu {
+            padding: 50px;
+            background: white;
+        }
+        .menu h2 {
+            color: #e94560;
+        }
+        .menu-items {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        .menu-item {
+            background: #fffbec;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #222;
+            color: white;
+            padding: 15px;
+            font-size: 14px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+   
+    
+    <section class="hero">
+        <img src="restaurant.jpg" alt="Delicious Food">
+    </section>
+    
+    <section class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="menu-item">
+                <h3>Pizza</h3>
+                <p>Cheesy & delicious</p>
+            </div>
+            <div class="menu-item">
+                <h3>Pasta</h3>
+                <p>Rich & creamy flavors</p>
+            </div>
+            <div class="menu-item">
+                <h3>Burger</h3>
+                <p>Juicy & perfectly grilled</p>
+            </div>
+            <div class="menu-item">
+                <h3>Desserts</h3>
+                <p>Sweet treats for everyone</p>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p>Contact Us: info@deliciousbites.com | Phone: (123) 456-7890</p>
+        <p>&copy; 2025 Delicious Bites. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
